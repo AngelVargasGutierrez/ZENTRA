@@ -1,0 +1,14 @@
+name = "zentra-api"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+# Dominio(s) de tu tienda en GitHub Pages, sin barra final. Varios separados por coma.
+ALLOWED_ORIGIN = "https://TU-USUARIO.github.io"
+# Déjalo en "false" hasta confirmar la API de Dropi Perú y completar backend/costs.js
+DROPI_ENABLED = "false"
+DROPI_BASE = "https://api.dropi.pe"
+
+[[kv_namespaces]]
+binding = "ORDERS"
+id = "PEGA_AQUI_EL_ID_DEL_KV"

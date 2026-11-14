@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZENTRA: gadgets de calidad A1 para tu casa y tu día a día</title>
+<meta name="description" content="Ahorrador de energía, mini afeitador y audífonos estilo arete de calidad A1, revisados uno por uno. Envío a todo el Perú. Paga con Yape, Plin o transferencia.">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ZENTRA: tecnología premium de calidad A1">
+<meta property="og:description" content="Gadgets de calidad A1 revisados uno por uno. Paga con Yape, Plin o transferencia. Envíos a todo el Perú.">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=zentra4-claro">
+</head>
+<body>
+
+<!-- Símbolos de producto (ilustraciones vectoriales). Cuando tengas las fotos reales de Dropi,
+     cambia cada <svg><use></svg> por <img src="fotos/..."> en app.js (función art). -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".35"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1b33"/><stop offset="1" stop-color="#050509"/>
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0071e3"/><stop offset="1" stop-color="#5ac8fa"/>
+    </linearGradient>
+
+    <symbol id="p-headphones" viewBox="0 0 200 200">
+      <path d="M44 118V98a56 56 0 0 1 112 0v20" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round"/>
+      <path d="M44 118V98a56 56 0 0 1 112 0v20" fill="none" stroke="url(#sheen)" stroke-width="12" stroke-linecap="round"/>
+      <rect x="26" y="100" width="40" height="66" rx="20" fill="currentColor"/>
+      <rect x="26" y="100" width="40" height="66" rx="20" fill="url(#sheen)"/>
+      <rect x="134" y="100" width="40" height="66" rx="20" fill="currentColor"/>
+      <rect x="134" y="100" width="40" height="66" rx="20" fill="url(#sheen)"/>
+      <rect x="34" y="112" width="12" height="42" rx="6" fill="#000" opacity=".35"/>
+      <rect x="154" y="112" width="12" height="42" rx="6" fill="#000" opacity=".35"/>
+    </symbol>
+
+    <symbol id="p-earbuds" viewBox="0 0 200 200">
+      <rect x="40" y="96" width="120" height="76" rx="38" fill="currentColor"/>
+      <rect x="40" y="96" width="120" height="76" rx="38" fill="url(#sheen)"/>
+      <path d="M40 130h120" stroke="#000" stroke-opacity=".4" stroke-width="2"/>
+      <circle cx="100" cy="150" r="4" fill="url(#screenGlow)" class="blink"/>
+      <g class="bud"><ellipse cx="72" cy="62" rx="20" ry="24" fill="currentColor"/><ellipse cx="72" cy="62" rx="20" ry="24" fill="url(#sheen)"/><rect x="62" y="76" width="12" height="34" rx="6" fill="currentColor"/></g>
+      <g class="bud b2"><ellipse cx="128" cy="62" rx="20" ry="24" fill="currentColor"/><ellipse cx="128" cy="62" rx="20" ry="24" fill="url(#sheen)"/><rect x="126" y="76" width="12" height="34" rx="6" fill="currentColor"/></g>
+    </symbol>
+
+    <symbol id="p-watch" viewBox="0 0 200 200">
+      <rect x="68" y="6" width="64" height="70" rx="18" fill="currentColor" opacity=".85"/>
+      <rect x="68" y="124" width="64" height="70" rx="18" fill="currentColor" opacity=".85"/>
+      <rect x="52" y="52" width="96" height="96" rx="28" fill="currentColor"/>
+      <rect x="52" y="52" width="96" height="96" rx="28" fill="url(#sheen)"/>
+      <rect x="150" y="84" width="7" height="22" rx="3.5" fill="currentColor"/>
+      <rect x="60" y="60" width="80" height="80" rx="21" fill="url(#screen)"/>
+      <circle cx="100" cy="100" r="26" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="6"/>
+      <circle cx="100" cy="100" r="26" fill="none" stroke="url(#screenGlow)" stroke-width="6" stroke-linecap="round" stroke-dasharray="120 200" class="ring-spin"/>
+      <text x="100" y="106" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="17" fill="#fff">10:09</text>
+    </symbol>
+
+    <symbol id="p-laptop" viewBox="0 0 240 200">
+      <rect x="42" y="30" width="156" height="104" rx="10" fill="currentColor"/>
+      <rect x="42" y="30" width="156" height="104" rx="10" fill="url(#sheen)"/>
+      <rect x="49" y="37" width="142" height="90" rx="5" fill="url(#screen)"/>
+      <circle cx="120" cy="82" r="30" fill="url(#screenGlow)" opacity=".35" class="pulse"/>
+      <circle cx="120" cy="82" r="14" fill="url(#screenGlow)" opacity=".8"/>
+      <path d="M22 140h196l-12 22a8 8 0 0 1-7 4H41a8 8 0 0 1-7-4z" fill="currentColor"/>
+      <path d="M22 140h196l-12 22a8 8 0 0 1-7 4H41a8 8 0 0 1-7-4z" fill="url(#sheen)"/>
+      <rect x="100" y="140" width="40" height="5" rx="2.5" fill="#000" opacity=".35"/>
+    </symbol>
+
+    <symbol id="p-speaker" viewBox="0 0 200 200">
+      <rect x="52" y="34" width="96" height="136" rx="42" fill="currentColor"/>
+      <rect x="52" y="34" width="96" height="136" rx="42" fill="url(#sheen)"/>
+      <g fill="#000" opacity=".4">
+        <circle cx="80" cy="68" r="3"/><circle cx="100" cy="68" r="3"/><circle cx="120" cy="68" r="3"/>
+        <circle cx="70" cy="84" r="3"/><circle cx="90" cy="84" r="3"/><circle cx="110" cy="84" r="3"/><circle cx="130" cy="84" r="3"/>
+        <circle cx="80" cy="100" r="3"/><circle cx="100" cy="100" r="3"/><circle cx="120" cy="100" r="3"/>
+        <circle cx="70" cy="116" r="3"/><circle cx="90" cy="116" r="3"/><circle cx="110" cy="116" r="3"/><circle cx="130" cy="116" r="3"/>
+      </g>
+      <rect x="86" y="140" width="28" height="6" rx="3" fill="url(#screenGlow)" class="blink"/>
+    </symbol>
+
+    <symbol id="p-charger" viewBox="0 0 200 200">
+      <rect x="60" y="62" width="80" height="92" rx="22" fill="currentColor"/>
+      <rect x="60" y="62" width="80" height="92" rx="22" fill="url(#sheen)"/>
+      <rect x="78" y="34" width="10" height="32" rx="3" fill="#bbb"/>
+      <rect x="112" y="34" width="10" height="32" rx="3" fill="#bbb"/>
+      <rect x="84" y="112" width="32" height="14" rx="7" fill="#000" opacity=".5"/>
+      <path d="M104 78l-12 22h10l-6 18 16-24h-10z" fill="url(#screenGlow)" class="blink"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="modal" id="modal" hidden></div>
+
+<a class="skip" href="#productos">Saltar al contenido</a>
+
+<nav class="nav" id="nav">
+  <div class="nav__in">
+    <a class="logo" href="#top" aria-label="ZENTRA, inicio">
+      <img src="zentra-logo.svg" alt="ZENTRA" width="99" height="20" decoding="async">
+    </a>
+    <div class="nav__links" id="navLinks">
+      <a href="#a1">Calidad A1</a>
+      <a href="#categorias">Categorías</a>
+      <a href="#productos">Productos</a>
+      <a href="#comprar">Cómo comprar</a>
+      <a href="#faq">Preguntas</a>
+    </div>
+    <a class="btn btn--sm" href="#productos" data-wa-generic>Pedir ahora</a>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</nav>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="h1">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="glow glow--a"></div><div class="glow glow--b"></div>
+    <div class="rings"><i></i><i></i><i></i><i></i></div>
+    <canvas id="stars"></canvas>
+  </div>
+
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow enter" style="--d:.05s"><span class="dot"></span> Calidad A1 verificada</p>
+      <h1 id="h1" class="h-xxl">
+        <span class="line"><span class="enter-up" style="--d:.15s">Tecnología</span></span>
+        <span class="line"><span class="enter-up" style="--d:.28s">de calidad <em class="grad">A1</em>.</span></span>
+      </h1>
+      <p class="lead enter" style="--d:.5s">Gadgets útiles para tu casa y tu día a día, revisados uno por uno antes de salir. Pagas con <strong>Yape, Plin o transferencia</strong> y te lo enviamos a todo el Perú.</p>
+      <div class="hero__cta enter" style="--d:.65s">
+        <a class="btn" href="#productos">Ver productos</a>
+        <a class="btn btn--ghost" href="#a1">Qué es calidad A1 <span aria-hidden="true">›</span></a>
+      </div>
+      <ul class="hero__facts enter" style="--d:.8s">
+        <li><b>Todo el Perú</b> envíos a domicilio</li>
+        <li><b>Yape y Plin</b> pago al instante</li>
+        <li><b>Revisado</b> antes del despacho</li>
+      </ul>
+    </div>
+
+    <div class="hero__stage enter-scale" style="--d:.3s" aria-hidden="true">
+      <div class="seal">
+        <svg viewBox="0 0 300 300" class="seal__text">
+          <defs><path id="circ" d="M150 150m-118 0a118 118 0 1 1 236 0a118 118 0 1 1-236 0"/></defs>
+          <text><textPath href="#circ" startOffset="0" textLength="730" lengthAdjust="spacing">CALIDAD A1 • REVISADO • SELECCIONADO • GARANTIZADO •</textPath></text>
+        </svg>
+        <div class="seal__core"><span>A1</span></div>
+      </div>
+      <img class="float f1" data-depth="26" src="fotos/ahorrador-1.jpg" alt="" width="420" height="420" decoding="async">
+      <img class="float f2" data-depth="40" src="fotos/afeitador-1.jpg" alt="" width="360" height="360" decoding="async">
+      <img class="float f3" data-depth="18" src="fotos/audifono-arete-1.jpg" alt="" width="380" height="380" decoding="async">
+    </div>
+  </div>
+  <a class="scrollcue" href="#marquee" aria-label="Bajar"><i></i></a>
+</section>
+
+<!-- MARQUEE -->
+<section class="marquee" id="marquee" aria-label="Ventajas">
+  <div class="marquee__track">
+    <span>Calidad A1</span><span>Envío a todo el Perú</span><span>Yape, Plin y transferencia</span><span>Soporte por WhatsApp</span><span>Revisión antes del despacho</span><span>Cambio por defecto de fábrica</span>
+    <span>Calidad A1</span><span>Envío a todo el Perú</span><span>Yape, Plin y transferencia</span><span>Soporte por WhatsApp</span><span>Revisión antes del despacho</span><span>Cambio por defecto de fábrica</span>
+  </div>
+</section>
+
+<!-- A1 STORY (sticky, scroll-linked) -->
+<section class="story" id="a1" aria-labelledby="h-a1">
+  <div class="story__pin">
+    <div class="wrap story__grid">
+      <div class="story__text">
+        <p class="eyebrow">Qué significa A1</p>
+        <h2 id="h-a1" class="h-xl">Lo bueno no se improvisa.</h2>
+        <ol class="steps" id="steps">
+          <li class="is-on"><span class="n">01</span><h3>Seleccionamos</h3><p>Solo ofrecemos modelos que ya probamos y que rinden. Lo que no convence, no se vende.</p></li>
+          <li><span class="n">02</span><h3>Revisamos</h3><p>Cada pedido se revisa antes de salir: enciende, carga y funciona como debe.</p></li>
+          <li><span class="n">03</span><h3>Entregamos</h3><p>Llega a tu puerta con guía de seguimiento.</p></li>
+        </ol>
+        <div class="progress" aria-hidden="true"><i id="prog"></i></div>
+      </div>
+      <div class="story__visual" aria-hidden="true">
+        <div class="orb"></div>
+        <img class="v v1 is-on" src="fotos/ahorrador-2.jpg" alt="" width="520" height="520" loading="lazy" decoding="async">
+        <img class="v v2" src="fotos/afeitador-3.jpg" alt="" width="520" height="520" loading="lazy" decoding="async">
+        <img class="v v3" src="fotos/audifono-arete-1.jpg" alt="" width="520" height="520" loading="lazy" decoding="async">
+        <div class="check"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> A1</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="sec" id="categorias" aria-labelledby="h-cat">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Categorías</p>
+    <h2 id="h-cat" class="h-xl" data-reveal>Elige tu próximo favorito.</h2>
+    <div class="cats">
+      <a class="cat cat--big" href="#productos" data-filter="Hogar" data-reveal style="--tint:#34c759">
+        <h3>Hogar</h3><p>Ahorra en la cuenta de luz sin cambiar tus hábitos.</p>
+        <img src="fotos/ahorrador-4.jpg" alt="Ahorrador de energía" width="340" height="340" loading="lazy" decoding="async">
+      </a>
+      <a class="cat" href="#productos" data-filter="Cuidado personal" data-reveal style="--tint:#0071e3;--dl:.08s">
+        <h3>Cuidado personal</h3><p>Afeitado rápido donde estés.</p>
+        <img src="fotos/afeitador-1.jpg" alt="Mini afeitador" width="200" height="200" loading="lazy" decoding="async">
+      </a>
+      <a class="cat" href="#productos" data-filter="Audio" data-reveal style="--tint:#7d5cff;--dl:.16s">
+        <h3>Audio</h3><p>Audífonos cómodos que no entran al oído.</p>
+        <img src="fotos/audifono-arete-1.jpg" alt="Audífonos estilo arete" width="200" height="200" loading="lazy" decoding="async">
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="sec sec--alt" id="productos" aria-labelledby="h-prod">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Catálogo</p>
+    <h2 id="h-prod" class="h-xl" data-reveal>Nuestros productos.</h2>
+    <div class="tabs" role="tablist" id="tabs" data-reveal>
+      <button role="tab" aria-selected="true" data-cat="Todos">Todos</button>
+      <button role="tab" aria-selected="false" data-cat="Hogar">Hogar</button>
+      <button role="tab" aria-selected="false" data-cat="Cuidado personal">Cuidado personal</button>
+      <button role="tab" aria-selected="false" data-cat="Audio">Audio</button>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<!-- HOW TO BUY -->
+<section class="sec" id="comprar" aria-labelledby="h-buy">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Cómo comprar</p>
+    <h2 id="h-buy" class="h-xl" data-reveal>Tres pasos. Sin vueltas.</h2>
+    <div class="how">
+      <article class="how__i" data-reveal><span class="how__n">1</span><h3>Elige</h3><p>Escoge el producto y pulsa «Comprar».</p></article>
+      <article class="how__i" data-reveal style="--dl:.1s"><span class="how__n">2</span><h3>Paga</h3><p>Yape, Plin o transferencia. Sube tu comprobante y listo.</p></article>
+      <article class="how__i" data-reveal style="--dl:.2s"><span class="how__n">3</span><h3>Recibe</h3><p>Confirmamos tu pago y despachamos tu pedido.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- BIG CTA -->
+<section class="bigcta" aria-labelledby="h-cta">
+  <div class="bigcta__bg" aria-hidden="true"><div class="glow glow--a"></div></div>
+  <div class="wrap">
+    <h2 id="h-cta" class="h-xxl" data-reveal>Si es A1,<br><em class="grad">es bueno.</em></h2>
+    <p class="lead" data-reveal>Escríbenos y te ayudamos a elegir el indicado.</p>
+    <a class="btn btn--lg" href="#" data-wa-generic data-reveal>Hablar por WhatsApp</a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec sec--alt" id="faq" aria-labelledby="h-faq">
+  <div class="wrap wrap--narrow">
+    <h2 id="h-faq" class="h-xl" data-reveal>Preguntas frecuentes.</h2>
+    <div class="faq" data-reveal>
+      <details><summary>¿Qué significa «calidad A1»?</summary><p>Son productos que seleccionamos y revisamos antes del envío para que cumplan lo que prometen. Cada ficha indica qué incluye el producto.</p></details>
+      <details><summary>¿Cómo pago?</summary><p>Con Yape, Plin o transferencia bancaria. Al comprar ves el monto y el número; subes tu captura y confirmamos tu pago.</p></details>
+      <details><summary>¿Cuánto demora el envío?</summary><p>Depende de tu ciudad. Cuando despachamos te enviamos la guía de seguimiento.</p></details>
+      <details><summary>¿Qué pasa si llega con un defecto?</summary><p>Escríbenos por WhatsApp con fotos o un video y revisamos tu caso.</p></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <a class="logo" href="#top"><img src="zentra-logo.svg" alt="ZENTRA" width="99" height="20" decoding="async"></a>
+    <p>Tecnología de calidad A1. Envíos a todo el Perú.</p>
+    <p class="foot__small" id="footWa"></p>
+    <p class="foot__small">© <span id="yr"></span> ZENTRA. Las marcas mencionadas pertenecen a sus dueños.</p>
+  </div>
+</footer>
+
+<a class="wa-float" href="#" data-wa-generic aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6c-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 .9c.3.2.5.2.6.4.1.3.1.8-.1 1.4z"/></svg>
+</a>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Costos reales de Dropi: privados, solo viajan al Worker con wrangler
+backend/costs.js
+# Material de trabajo local
+_respaldo-tema-oscuro/
+logo/
+.playwright-mcp/
+node_modules/
+.wrangler/
+.dev.vars
